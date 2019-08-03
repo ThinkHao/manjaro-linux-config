@@ -2,7 +2,6 @@ adobe-source-code-pro-fonts
 archlinuxcn-keyring
 autojump
 clang
-clion
 cmake
 ctags
 dnsutils
