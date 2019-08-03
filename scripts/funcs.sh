@@ -64,7 +64,7 @@ update_system() {
 # install software
 install_software() {
     clear
-    install_software ${APP_BASE}
+    install_softwares ${APP_BASE}
 }
 
 config_etc() {
@@ -166,7 +166,7 @@ config_fonts() {
     cd ${now}
 }
 
-install_software() {
+install_softwares() {
     not_be_installed=0
     have_been_installed=0
     linenu=$(cat $1 | wc -l)
