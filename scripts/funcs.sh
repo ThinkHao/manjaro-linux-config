@@ -134,8 +134,8 @@ config_zsh() {
 # i3wm
 config_i3() {
     print_log "i3wm..."
-    link -sfn ${I3WM_FROM} ${I3WM_TO}
-    link -sfn ${POLYBAR_FROM} ${POLYBAR_TO}
+    ln -sfn ${I3WM_FROM} ${I3WM_TO}
+    ln -sfn ${POLYBAR_FROM} ${POLYBAR_TO}
     install_software ${APP_EXTEND}
 }
 
@@ -144,8 +144,8 @@ install_i3() {
     print_log "install i3wm" 
     install_software ${APP_I3_BASE}
     install_software ${APP_EXTEND}
-    link -sfn ${I3WM_FROM} ${I3WM_TO}
-    link -sfn ${POLYBAR_FROM} ${POLYBAR_TO}
+    ln -sfn ${I3WM_FROM} ${I3WM_TO}
+    ln -sfn ${POLYBAR_FROM} ${POLYBAR_TO}
 }
 
 config_terminator() {
