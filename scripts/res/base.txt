@@ -7,6 +7,7 @@ cmake
 ctags
 dnsutils
 electronic-wechat
+deepin.com.qq.im
 fcitx-qt4
 fcitx-qt5
 fcitx-configtool
