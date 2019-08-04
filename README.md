@@ -5,7 +5,7 @@ terminator, vim, zsh, fonts of windows, pacman and installing applications, etc.
 
 
 ```shell
-git clone https://github.com/dongchangzhang/manjaro-linux-config $HOME/.manjaro
+git clone https://github.com/ThinkHao/manjaro-linux-config $HOME/.manjaro
 
 chmod a+x $HOME/.manjaro/scripts/setup_in_gui.sh
 
